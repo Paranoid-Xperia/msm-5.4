@@ -802,7 +802,6 @@ void dpm_resume_noirq(pm_message_t state)
 
 	resume_device_irqs();
 	device_wakeup_disarm_wake_irqs();
-
 }
 
 static pm_callback_t dpm_subsys_resume_early_cb(struct device *dev,
